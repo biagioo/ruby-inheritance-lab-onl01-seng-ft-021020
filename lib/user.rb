@@ -1,5 +1,5 @@
 def User 
-  
+  attr_reader :first_name, :last_name
   
   def initialize(first, last) 
     @first_name = first
